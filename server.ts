@@ -5,7 +5,6 @@ import Database from "better-sqlite3";
 
 const db = new Database("agroconnect.db");
 
-// Initialize Database
 db.exec(`
   CREATE TABLE IF NOT EXISTS farmers (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
